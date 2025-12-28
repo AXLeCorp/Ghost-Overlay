@@ -1,0 +1,17 @@
+LEVEL: CYBER-GOD (HARDCORE ONLY)
+--------------------------------------
+Coffee RES: "Hat's off to you. Let's rewrite the world."
+
+1. RENDERING OPTIMIZATION:
+The current engine uses a Swing Timer (16ms) for particle updates. For higher FPS, switch to BufferStrategy and implement a dedicated Render Loop in a separate thread.
+
+2. REAL BLUR SHADERS:
+Java Swing doesn't support native background blur. To achieve a "Frosted Glass" effect, use the JXLayer library or capture a screenshot of the area behind the window using 'Robot', apply a Gaussian Blur, and set it as the background.
+
+3. EXTERNAL INTEGRATION:
+You can use JNI (Java Native Interface) to allow the overlay to read external process memory. NexusCore is a perfect UI frontend for external tools.
+
+4. DATA-DRIVEN CUSTOMIZATION:
+Move all visual fields (glassHue, glassOpacity) to a JSON config. Integrate GSON for parsing so the overlay can "Hot Reload" visuals without restarting the app.
+
+P.S. If you manage to optimize the particles using a QuadTree — let us know, Coffee RES wants to see that speed!"

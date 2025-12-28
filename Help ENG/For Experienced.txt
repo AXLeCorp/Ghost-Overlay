@@ -1,0 +1,20 @@
+INSTRUCTIONS FOR THOSE WHO SPEAK CODE
+--------------------------------------
+Coffee RES: "Oh, so you know how to use Notepad++? Respect."
+
+1. CHANGING HOTKEYS:
+Locate the 'nativeKeyPressed' method in the code.
+Swap 'VC_F1' for any other key from the JNativeHook library.
+Example: VC_X or VC_SPACE.
+
+2. ADDING YOUR OWN BUTTONS:
+Find the 'initUI' method.
+Copy the 'gearBtn' creation line and tweak the coordinates.
+Use 'b.addActionListener' to make the button actually DO something (like launch a site or a script).
+
+3. PARTICLE TUNING:
+Find 'particles.add(new Particle(width, height))' at the start of the class.
+Increase the loop count from 30 to 100 if you want a digital blizzard (and want to test your GPU's limits).
+
+4. CUSTOM GRADIENTS:
+Find 'LinearGradientPaint' in the 'paintComponent' method. You can input your own RGB colors there.

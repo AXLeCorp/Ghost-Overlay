@@ -1,0 +1,20 @@
+WELCOME TO NEXUS CORE, ROOKIE!
+--------------------------------------
+Coffee RES: "Relax, nothing's gonna explode... probably."
+
+1. WHAT IS THIS?
+This is the "Ghost Overlay" — a translucent window that floats above all other apps. Think of it as a futuristic HUD for your desktop.
+
+2. HOW TO RUN?
+- Drop 'jnativehook-2.2.2.jar' into the 'lib' folder. No jar, no magic.
+- Double-click 'run.bat'.
+- If a black console window appears, you're doing great.
+- Press CTRL + F1 to witness the ghost.
+
+3. WHY DO I NEED THIS?
+To flex on your friends or create a custom dashboard that doesn't get in the way of your gaming.
+
+4. CHANGING STUFF:
+Click the "✦" symbol inside the overlay. Use the sliders to warp reality. 
+
+TIP: If everything freezes, just close the console and restart run.bat. Coffee RES has your back!
